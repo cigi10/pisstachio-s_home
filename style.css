@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
 * {
   box-sizing: border-box;
   word-wrap: break-word;
@@ -85,12 +87,14 @@ header h2 {
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 3em;
+  font-family: "Shrikhand", serif; /* Apply Shrikhand font */
 }
 
 article h2 {
   color: rgb(0, 0, 0);
   margin-left: 20px;
   font-size: 3em;
+  font-family: "Shrikhand", serif; /* Apply Shrikhand font */
 }
 
 .custom-link a {
@@ -161,7 +165,7 @@ form {
 }
 
 .share-btn.youtube { background: #df6d57; }
-.share-btn.pinterest { background: #bd3939; }
+share-btn.pinterest { background: #bd3939; }
 .share-btn.instagram-art { background: #a34eff; }
 .share-btn.instagram-food { background: #d132ce; }
 .share-btn.github { background: #444444; }
