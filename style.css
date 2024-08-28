@@ -85,15 +85,25 @@ header h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0);
+  color: rgb(225, 247, 207);
+  font-size: 3em;
+  font-family: "Shrikhand", serif; /* Apply Shrikhand font */
+  letter-spacing: 1px; /* Increase letter spacing */
+  -webkit-text-stroke: 2px #811717; /* Stroke with 2px thickness and black color */
+  
+}
+
+article h2 {
+  color: rgb(255, 173, 173); /* this is fore the contact us and inside article thingy */
+  margin-left: 20px;
   font-size: 3em;
   font-family: "Shrikhand", serif; /* Apply Shrikhand font */
 }
 
-article h2 {
-  color: rgb(0, 0, 0);
+article h3 {
+  color: rgb(244, 204, 231);
   margin-left: 20px;
-  font-size: 3em;
+  font-size: 2em; /* Smaller size compared to h2 */
   font-family: "Shrikhand", serif; /* Apply Shrikhand font */
 }
 
@@ -205,6 +215,13 @@ share-btn.pinterest { background: #bd3939; }
   background-color: rgba(208, 255, 197, 1);
 }
 
+.message_box {
+  height: 200px;
+
+}
+
+
+
 /* Responsive layout */
 @media (max-width: 900px) {
   nav {
@@ -214,7 +231,9 @@ share-btn.pinterest { background: #bd3939; }
 
   article {
     width: 100%;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid blue;
   }
 
   .column {
